@@ -1,0 +1,27 @@
+# Generated QA files and temporary publishing helpers
+tmp/
+**/tmp/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Future downloaded resources and generated model caches
+data/
+models/
+checkpoints/
+.cache/
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
